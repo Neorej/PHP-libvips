@@ -15,6 +15,6 @@ $vips->writeToFile($fileDestination);
 
 // Output directly  
 header('Content-type: image/' . $fileExtension);  
-echo $vips->writeToBuffer('.' . $extension);  
+echo $vips->writeToBuffer('.' . $fileExtension);  
 // OR  
-//return ['image/' . $extension, $vips->writeToBuffer('.' . $extension)];  
+//return ['image/' . $fileExtension, $vips->writeToBuffer('.' . $fileExtension)];  
