@@ -1,4 +1,5 @@
 # PHP-libvips
+# Libvips image resizing examples in PHP
 
 $fileLocation = '';  
 $fileDestination = '';  
